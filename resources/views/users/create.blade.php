@@ -30,6 +30,7 @@
 
                 <div class="form-group">
                     <label for="password_confirmation">确认密码：</label>
+                    <!-- 这里必须是_confirmation后缀 -->
                     <input type="password" name="password_confirmation" class="form-control" value="{{ old('password_confirmation') }}">
                 </div>
 
